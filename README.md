@@ -19,7 +19,7 @@ Crea un playground que contenga los elementos para representar un velocímetro d
   - `func cambioDeVelocidad( ) -> ( actual : Int, velocidadEnCadena: String)`, la función **cambioDeVelocidad**, cambia el valor de velocidad a la siguiente velocidad gradual, por ejemplo:  **Apagado** cambia a **VelocidadBaja**, de **VelocidadBaja** cambia a **VelocidadMedia**, es decir cada ejecución cambia a la siguiente velocidad.. si llega a **VelocidadAlta** cambia a **VelocidadMedia**. Finalmente, la función debe regresar una tupla con la velocidad actual y una cadena con la leyenda de la velocidad correspondiente.
 * Pruebas de la clase:
   - En el mismo playground prueba crea una instancia de la clase **Auto**, llamada **auto**.
-  - Itera 20 veces usando un `for`, llama a la función **cambioDeVelocidad** e imprime los valores de la tupla en la consola.
+  - Itera 20 veces usando un **for**, llama a la función **cambioDeVelocidad** e imprime los valores de la tupla en la consola.
   - Una salida válida con cinco iteraciones es:
 ```
 1. 0 , Apagado
